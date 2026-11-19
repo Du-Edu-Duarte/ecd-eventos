@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ECD Eventos · Planejamento de casamentos e festas</title>
+<meta name="description" content="Orçamento, fornecedores, convidados, cronograma, cerimônia e playlist do evento em um só lugar. Demonstração da ECD Tecnologia.">
+<link rel="icon" href="logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="ev-base.css">
+<link rel="stylesheet" href="ev.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/">
+    <img src="logo.jpg" alt="">
+    <span><b>ECD Eventos</b><small>por ECD Tecnologia</small></span>
+  </a>
+  <nav><a class="btn sm primary" href="#/novo">+ Novo evento</a></nav>
+</header>
+<div class="demo-bar">Versão de demonstração: os dados ficam salvos só neste navegador e todos os nomes e valores são fictícios. <button id="resetDemo" class="link">Restaurar exemplos</button></div>
+<main id="view"></main>
+<footer class="foot">ECD Tecnologia · Sistemas sob medida · <a href="https://www.instagram.com/ecdtecnologia/" target="_blank" rel="noopener">@ecdtecnologia</a></footer>
+<div id="modal" class="modal" hidden></div>
+<div id="toast" class="toast" hidden></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
